@@ -1,17 +1,17 @@
 import React from 'react';
 import { FaTimes } from 'react-icons/fa';
 
-const Task = ({ taskSend }) => {
+export const TaskItem = ({ taskSend, onDelete }) => {
     return (
         <div className={'task'}>
             <h3>
                 {taskSend.text}
-            <FaTimes style={{ color: 'red', cursor: 'pointer' }} />
+                <FaTimes style={{ color: 'red', cursor: 'pointer' }}
+                    onClick={() => onDelete(taskSend.id)}
+                />
             </h3>
             <p>{taskSend.day}</p>
         </div>
 
     )
 };
-
-export default Task;

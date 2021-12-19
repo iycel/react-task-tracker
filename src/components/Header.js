@@ -6,7 +6,7 @@ const Header = ({ title }) => {
     return (
         <header className='header'>
             <h1>{title}</h1>
-            <Button color='turquoise'  text = 'Show Create a Task Bar'/>
+            <Button color='purple'  text = 'Show Create a Task Bar'/>
         </header>
     )
 }
