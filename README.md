@@ -7,16 +7,13 @@
 
 Project aims to create a Task Tracker App.
 
-## Problem Statement
-
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
 
 ## Project Skeleton
 
 ```
 006 - Task Tracker (folder)
 |
-|----readme.md         # Given to the students (Definition of the project)
+|----readme.md   
 SOLUTION
 ├── public
 │     └── index.html
@@ -25,11 +22,11 @@ SOLUTION
 │    │       ├── Header.js
 │    │       │     └── Button.js
 │    │       │   
-│    │       ├── AddTask.js
+│    │       ├── CreateTask.js
 │    │       │   
 │    │       │   
-│    │       └── Tasks.js
-│    │             └── Task.js
+│    │       └── TaskList.js
+│    │             └── TaskItem.js
 │    │            
 │    ├── App.js
 │    ├── App.css
@@ -57,12 +54,6 @@ Build a Task Tracker App using ReactJS.
 
 - ReactJS
 
-### At the end of the project, students will be able to;
-
-- improve coding skills within HTML & CSS & JS & ReactJS.
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
 ## Steps to Solution
 
 - Step 1: Create React App using `npx create-react-app task-tracker`
@@ -77,8 +68,8 @@ Build a Task Tracker App using ReactJS.
 
 - Step 6: Add project gif to your project and README.md file.
 
-## Notes
+## Contact
 
-- You can add additional functionalities to your app.
+- GitHub [@iycel](https://github.com/iycel)
 
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
+- Linkedin [@iycel](www.linkedin.com/in/iycel)
