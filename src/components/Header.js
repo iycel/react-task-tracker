@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
 
-const Header = ({ title }) => {
+const Header = ({ title, toggleShow, isTaskBarShowed }) => {
     return (
         <header className='header'>
             <h1>{title}</h1>
-            <Button color='purple'  text = 'Show Create a Task Bar'/>
+            <Button color={isTaskBarShowed ? 'steelblue' : 'purple'}  text = {isTaskBarShowed ? 'Hide Create a Taskbar' : 'Show Create a Task Bar'} toggleShow={toggleShow}/>
         </header>
     )
 }
