@@ -72,4 +72,4 @@ Build a Task Tracker App using ReactJS.
 
 - GitHub [@iycel](https://github.com/iycel)
 
-- Linkedin [@iycel](www.linkedin.com/in/iycel)
+- Linkedin [@iycel](https://linkedin.com/in/iycel)
